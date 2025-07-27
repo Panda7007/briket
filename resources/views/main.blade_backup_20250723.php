@@ -348,16 +348,12 @@
             <div class="h-100 p-5 text-bg-dark rounded-3">
               <h4>About Us</h4>
               <p>
-                CV Arkhanza Indo Charcoal is an Indonesian-based company specializing in the production
-                and export of premium coconut shell charcoal briquettes. Founded with a mission to bring
-                Indonesia’s natural excellence to the global stage, we pride ourselves on quality,
-                integrity, and sustainability.
-
-                </n>
-                Our core product — Coconut Charcoal Briquette — is manufactured using 100% natural
-                coconut shell, making it eco-friendly and efficient for use in shisha/hookah and
-                barbecue. Our factory operates under strict quality control to ensure that every batch
-                meets international standards in performance, cleanliness, and consistency.
+                Kami adalah penyedia briket ramah lingkungan yang berkomitmen pada solusi energi
+                berkelanjutan untuk
+                rumah tangga, bisnis, dan industri.
+                Dengan kualitas terbaik dan harga bersaing, kami siap menjadi mitra terpercaya dalam
+                memenuhi
+                kebutuhan energi Anda.
               </p>
               <button class="btn btn-outline-light" type="button">Pelajari Lebih Lanjut</button>
             </div>
@@ -378,47 +374,82 @@
   </section>
 
 
-  <!-- Modal Popup -->
-  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content bg-dark text-white">
-        <div class="modal-header border-0">
-          <h5 class="modal-title" id="imageModalLabel">Preview Produk</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-            aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center">
-          <img src="" alt="Preview" id="modalImage" class="img-fluid rounded">
-        </div>
+  <!-- Feature start  -->
+  <section id="feature">
+    <div class="container p-4 pt-5">
+      <div class="text-center mb-4">
+        <h3 class="text-capitalize m-0">Our Product</h3>
       </div>
-    </div>
-  </div>
 
-  <!-- Modal Popup -->
-  <div class="modal fade" id="ModalProduct" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content bg-dark text-white">
-        <div class="modal-header border-0">
-          <h5 class="modal-title" id="imageModalLabel">Preview Produk</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-            aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center">
-          <img src="" alt="Preview" id="modalImage" class="img-fluid rounded mb-3">
-          <h5 id="modalTitle"></h5>
-          <p id="modalAddress"></p>
-          <ul class="list-unstyled d-flex justify-content-center gap-3">
-            <li><img src="images/bed.png" alt="bed" style="width: 16px;"> <span id="modalBed"></span>
-              bed</li>
-            <li><img src="images/bath.png" alt="bath" style="width: 16px;"> <span id="modalBath"></span>
-              bath</li>
-            <li><img src="images/square.png" alt="size" style="width: 16px;"> <span id="modalSize"></span>
-              Sqft</li>
-          </ul>
+      <div class="scroll-container">
+        <div class="scrolling-wrapper">
+          <!-- Gambar dapat diklik, trigger modal -->
+          <img src="images/logo1.png" alt="logo1" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo1.png">
+          <img src="images/logo2.png" alt="logo2" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo2.png">
+          <img src="images/logo3.png" alt="logo3" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo3.png">
+          <img src="images/logo4.png" alt="logo4" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo4.png">
+          <img src="images/logo5.png" alt="logo5" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo5.png">
+          <img src="images/logo6.png" alt="logo6" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo6.png">
+          <!-- Duplikat untuk scroll terus-menerus -->
+          <img src="images/logo1.png" alt="logo1" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo1.png">
+          <img src="images/logo2.png" alt="logo2" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo2.png">
+          <img src="images/logo3.png" alt="logo3" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo3.png">
+          <img src="images/logo4.png" alt="logo4" data-bs-toggle="modal" data-bs-target="#imageModal"
+            data-img="images/logo4.png">
         </div>
       </div>
     </div>
-  </div>
+
+    <!-- Modal Popup -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="imageModalLabel">Preview Produk</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="" alt="Preview" id="modalImage" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Popup -->
+    <div class="modal fade" id="ModalProduct" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="imageModalLabel">Preview Produk</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="" alt="Preview" id="modalImage" class="img-fluid rounded mb-3">
+            <h5 id="modalTitle"></h5>
+            <p id="modalAddress"></p>
+            <ul class="list-unstyled d-flex justify-content-center gap-3">
+              <li><img src="images/bed.png" alt="bed" style="width: 16px;"> <span id="modalBed"></span>
+                bed</li>
+              <li><img src="images/bath.png" alt="bath" style="width: 16px;"> <span id="modalBath"></span>
+                bath</li>
+              <li><img src="images/square.png" alt="size" style="width: 16px;"> <span
+                  id="modalSize"></span> Sqft</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -429,85 +460,198 @@
     <!-- Sisha Section -->
     <div class="row align-items-center mb-5">
       <div class="col-md-4">
-        <img src="bahan/sisha0.jpg" class="w-100 h-10">
-        <!-- <div class="bg-secondary" style="height: 200px;"></div> -->
+        <div class="bg-secondary" style="height: 200px;"></div>
       </div>
       <div class="col-md-8">
-        <h3 class="fw-bold">Shisha Charcoal</h3>
-        <p>Our Shisha Charcoal Briquettes are made from 100% natural coconut shell charcoal, using
-          food-grade tapioca starch as a binder. Designed specifically for hookah use, they offer a long
-          burn time, low ash content, consistent heat, and no unwanted odors or chemicals. Produced under
-          strict quality control, our briquettes ensure a clean, smooth smoking experience, making them a
-          premium choice for shisha enthusiasts worldwide.</p>
+        <h3 class="fw-bold">sisha</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+          leap into electronic typesetting, remaining essentially unc</p>
         <button class="btn btn-warning rounded-pill mt-3">Action</button>
       </div>
     </div>
 
     <div class="row mb-5">
       <div class="col-md-6">
-
-        <img src="bahan/SISHA1.png" class="w-100 h-10">
-        <!-- <div class="bg-success" style="height: 200px;"></div> -->
+        <div class="bg-success" style="height: 200px;"></div>
       </div>
       <div class="col-md-6">
-        <img src="bahan/SISHA2.png" class="w-100 h-10">
-        <!-- <div class="bg-secondary" style="height: 200px;"></div> -->
+        <div class="bg-secondary" style="height: 200px;"></div>
       </div>
     </div>
 
     <!-- BBQ Section -->
     <div class="row align-items-center mb-5">
       <div class="col-md-8 order-2 order-md-1">
-        <h3 class="fw-bold">2.Barberque Charcoal</h3>
-        <p>Our BBQ Charcoal is crafted from 100% natural coconut shell, delivering long-lasting heat with a
-          burning time of up to 5 hours. Designed for efficient grilling, it reaches temperatures of over
-          800°F, ensuring consistent performance. Free from chemical additives, our charcoal briquettes
-          are eco-friendly, low-smoke, and clean-burning — perfect for both household and commercial
-          barbecue needs</p>
+        <h3 class="fw-bold">BBQ</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+          leap into electronic typesetting, remaining essentially unchanged.</p>
       </div>
       <div class="col-md-4 order-1 order-md-2 mb-3 mb-md-0">
-        <img src="bahan/bbq0.jpg" class="w-100 h-10">
-        <!-- <div class="bg-secondary" style="height: 200px;"></div> -->
+        <div class="bg-secondary" style="height: 200px;"></div>
       </div>
     </div>
 
-    <div class="row mb-5">
-      <div class="col-md-6">
-
-        <img src="bahan/bbq1.png" class="w-100 h-10">
-        <!-- <div class="bg-success" style="height: 200px;"></div> -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="bg-secondary" style="height: 200px;"></div>
       </div>
-      <div class="col-md-6">
-        <img src="bahan/bbq1.png" class="w-100 h-10">
-        <!-- <div class="bg-secondary" style="height: 200px;"></div> -->
+      <div class="col-md-4">
+        <div class="bg-secondary" style="height: 200px;"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-secondary" style="height: 200px;"></div>
       </div>
     </div>
   </section>
 
-  <section class="position-relative">
-    <!-- Gambar background -->
+
+  <!-- Residence start  -->
+  <!-- <section id="residence">
+    <div class="container p-2">
+      <h3 class="text-capitalize m-0 py-lg-5">Popular Residence</h3>
+
+      <div class="swiper-button-next residence-swiper-next  residence-arrow"></div>
+      <div class="swiper-button-prev residence-swiper-prev residence-arrow"></div>
+
+      <div class="swiper residence-swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#ModalProduct">
+              <a><img src="https://cdn.pixabay.com/photo/2020/10/21/18/05/charcoal-5673897_960_720.jpg"
+                  class="card-img-top" alt="Briket Kayu"></a>
+              <div class="card-body p-0">
+                <a>
+                  <h5 class="card-title pt-4">Briket Kayu Alami</h5>
+                </a>
+                <p class="card-text">Dibuat dari limbah serbuk kayu. Cocok untuk BBQ dan pemanas rumah
+                  tangga.</p>
+                <div class="card-text">
+                  <ul class="d-flex">
+                    <li class="residence-list"><img src="images/weight.png" alt="image"> 5 Kg</li>
+                    <li class="residence-list"><img src="images/heat.png" alt="image"> 6500 kcal/kg
+                    </li>
+                    <li class="residence-list"><img src="images/type.png" alt="image"> Briket Kayu
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <a data-bs-toggle="modal" data-bs-target="#popupBriket">
+                <img src="https://cdn.pixabay.com/photo/2020/10/21/18/05/charcoal-5673897_960_720.jpg"
+                  class="card-img-top" alt="Briket Tempurung Kelapa">
+              </a>
+
+              <div class="card-body p-0">
+                <a>
+                  <h5 class="card-title pt-4">Briket Tempurung Kelapa</h5>
+                </a>
+                <p class="card-text">Tahan lama dan bebas asap, cocok untuk shisha dan memasak.</p>
+                <div class="card-text">
+                  <ul class="d-flex">
+                    <li class="residence-list"><img src="images/weight.png" alt="image"> 1 Kg</li>
+                    <li class="residence-list"><img src="images/heat.png" alt="image"> 7200 kcal/kg
+                    </li>
+                    <li class="residence-list"><img src="images/type.png" alt="image"> Briket Kelapa
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
-    <!-- Overlay content -->
-    <div class="position-relative text-center text-white py-5" style="z-index: 2;">
-      <h2 class="fw-bold">Shipping & Eksport Detail</h2>
-    </div>
-    <div class="container">
 
-      <img src="bahan/shipping.jpg" class="w-100 h-10">
-    </div>
-  </section>
-  <div class="position-relative text-center text-white py-5" style="z-index: 2;">
-    <h2 class="fw-bold">Why Arkhanza Indo Charcoal</h2>
-  </div>
-  <div class="container">
-    <img src="bahan/box2a.jpg" class="w-100 h-10">
-    <img src="bahan/kelebihan.png" class="w-100 h-10">
-    <img src="bahan/box5.png" class="w-100 h-10">
-  </div>
-  </section>
+          <div class="swiper-slide">
+            <div class="card">
+              <a><img src="https://cdn.pixabay.com/photo/2020/10/21/18/05/charcoal-5673897_960_720.jpg"
+                  class="card-img-top" alt="Briket Bambu"></a>
+              <div class="card-body p-0">
+                <a>
+                  <h5 class="card-title pt-4">Briket Bambu Press</h5>
+                </a>
+                <p class="card-text">Eco-friendly, ringan, dan mudah terbakar. Ideal untuk industri
+                  kecil.</p>
+                <div class="card-text">
+                  <ul class="d-flex">
+                    <li class="residence-list"><img src="images/weight.png" alt="image"> 2.5 Kg</li>
+                    <li class="residence-list"><img src="images/heat.png" alt="image"> 6000 kcal/kg
+                    </li>
+                    <li class="residence-list"><img src="images/type.png" alt="image"> Briket Bambu
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <a><img src="https://cdn.pixabay.com/photo/2020/10/21/18/05/charcoal-5673897_960_720.jpg"
+                  class="card-img-top" alt="Briket Sekam Padi"></a>
+              <div class="card-body p-0">
+                <a>
+                  <h5 class="card-title pt-4">Briket Sekam Padi</h5>
+                </a>
+                <p class="card-text">Alternatif murah dan efisien untuk rumah tangga dan pengeringan
+                  hasil panen.</p>
+                <div class="card-text">
+                  <ul class="d-flex">
+                    <li class="residence-list"><img src="images/weight.png" alt="image"> 3 Kg</li>
+                    <li class="residence-list"><img src="images/heat.png" alt="image"> 5500 kcal/kg
+                    </li>
+                    <li class="residence-list"><img src="images/type.png" alt="image"> Briket Sekam
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <a><img src="https://cdn.pixabay.com/photo/2020/10/21/18/05/charcoal-5673897_960_720.jpg"
+                  class="card-img-top" alt="Briket Campuran Biomassa"></a>
+              <div class="card-body p-0">
+                <a>
+                  <h5 class="card-title pt-4">Briket Biomassa Campuran</h5>
+                </a>
+                <p class="card-text">Gabungan bahan bakar ramah lingkungan untuk kebutuhan energi skala
+                  besar.</p>
+                <div class="card-text">
+                  <ul class="d-flex">
+                    <li class="residence-list"><img src="images/weight.png" alt="image"> 10 Kg</li>
+                    <li class="residence-list"><img src="images/heat.png" alt="image"> 6800 kcal/kg
+                    </li>
+                    <li class="residence-list"><img src="images/type.png" alt="image"> Briket
+                      Biomassa</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
+
+
+
+
+        </div>
+
+        <div class="residence-btn">
+        <a  class="btn btn-primary btn-lg my-5">View All Properties</a>
+      </div> 
+
+      </div>
+  </section> -->
 
 
   <section>
@@ -578,8 +722,7 @@
           <img src="images/search.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
             width="140" height="140" loading="lazy">
           <h4 class="fw-normal mt-5 ">Easy to find</h4>
-          <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam
-            pretium
+          <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam pretium
             amet
             facilisis.</p>
         </div>
@@ -588,8 +731,7 @@
           <img src="images/price.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
             width="140" height="140" loading="lazy">
           <h4 class="fw-normal mt-5">Affordable Prices</h4>
-          <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam
-            pretium
+          <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam pretium
             amet
             facilisis.</p>
         </div>
@@ -598,8 +740,7 @@
           <img src="images/time.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
             width="140" height="140" loading="lazy">
           <h4 class="fw-normal mt-5 ">Quickly Process</h4>
-          <p>Ac, gravida in diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua
-            dui
+          <p>Ac, gravida in diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua dui
             pellentesque. </p>
         </div>
       </div>
@@ -619,12 +760,10 @@
             <div class="row my-5 py-lg-5">
               <div class="col-md-8 mx-auto">
                 <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
-                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
-                  porta
+                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus porta
                   quam a
                   fringilla
-                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
-                </p>
+                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.</p>
 
                 <div class="row">
                   <div class="col-md-8">
@@ -640,12 +779,10 @@
             <div class="row my-5 py-lg-5">
               <div class="col-md-8 mx-auto">
                 <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
-                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
-                  porta
+                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus porta
                   quam a
                   fringilla
-                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
-                </p>
+                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.</p>
 
                 <div class="row">
                   <div class="col-md-8">
@@ -661,12 +798,10 @@
             <div class="row my-5 py-lg-5">
               <div class="col-md-8 mx-auto">
                 <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
-                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
-                  porta
+                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus porta
                   quam a
                   fringilla
-                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
-                </p>
+                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.</p>
 
                 <div class="row">
                   <div class="col-md-8">
@@ -715,8 +850,7 @@
               tempurung
               kelapa, serbuk gergaji, sekam padi, dan arang kayu. Briket kami dirancang untuk memenuhi
               kebutuhan
-              rumah tangga, industri kecil, hingga ekspor. Hemat biaya, minim polusi, dan mendukung
-              energi
+              rumah tangga, industri kecil, hingga ekspor. Hemat biaya, minim polusi, dan mendukung energi
               berkelanjutan untuk masa depan yang lebih hijau.
             </p>
             <a class="btn btn-primary btn-lg">Hubungi Kami</a>
@@ -739,8 +873,7 @@
         <div class="col-md-7 order-md-2">
           <div class="text-content ps-md-5 mt-4 mt-md-0">
             <p class="py-lg-2">
-              Briket adalah solusi hemat dan ramah lingkungan untuk kebutuhan memasak dan industri.
-              Kami
+              Briket adalah solusi hemat dan ramah lingkungan untuk kebutuhan memasak dan industri. Kami
               menyediakan
               beragam jenis briket dari bahan alami, seperti tempurung kelapa, serbuk kayu, dan sekam
               padi—tanpa bahan
@@ -760,8 +893,8 @@
       <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5  ">
 
         <div class=" col-md-4">
-          <img src="bahan/logo_kecil.jpg" style="max-width: 300px; margin-top: -100px;">
-          <p>Your Trusted Partner in Premium Charcoal Export</p>
+          <img src="images/LogoArkhanza.png" style="max-width: 300px; margin-top: -100px;">
+          <p>Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue.</p>
           <i class="bi-facebook pe-4"></i>
           <i class="bi-instagram pe-4"></i>
           <i class="bi-twitter pe-4"></i>
@@ -770,9 +903,45 @@
 
         <div class="col-md-8">
           <h3>arkhanzaindocharcoal</h3>
-          <p>High Quality | Sustainable | Reliable</p>
+          <p>"Jaminan Kualitas Internasional"</p>
+        </div>
+        <!-- <div class="col-md-2 ">
+          <h5>Project</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Houses</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Rooms</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Flats</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Appartments</a></li>
+          </ul>
         </div>
 
+        <div class="col-md-2 ">
+          <h5>Company</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">How we work ?</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Capital </a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Security </a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 ">
+          <h5>Movement</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Movement</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Support us</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 ">
+          <h5>Help</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Privacy </a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Condition</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">Blog</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 ">FAQs</a></li>
+          </ul>
+        </div> -->
       </footer>
     </div>
 
