@@ -226,7 +226,7 @@
       <div class="container ">
 
         <a class="navbar-brand" href="./#">
-          <img src="images/LogoArkhanza.png" style="max-width: 150px;"">
+          <img src="bahan/LogoArkhanza.png" style="max-width: 150px;"">
           </a>
 
 
