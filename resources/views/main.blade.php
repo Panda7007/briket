@@ -249,13 +249,13 @@
                   <a class="nav-link active me-md-4" href="#billboard">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-md-4" href="#residence">Product</a>
+                  <a class="nav-link me-md-4" href="#product">Product</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link me-md-4" href="#about-us">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-md-4" href="#help">Contact</a>
+                  <a class="nav-link me-md-4" href="#contact">Contact</a>
                 </li>
                 <!-- <li class="nav-item dropdown ">
                   <a class="nav-link me-md-4 text-center dropdown-toggle" data-bs-toggle="dropdown" role="button"
@@ -288,11 +288,11 @@
 
 
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="btn-medium btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#exampleModal2">Sign
                     Up</a>
-                </li>
+                </li> -->
 
               </ul>
 
@@ -307,12 +307,8 @@
   <!-- billboard start -->
   <section id="billboard">
     <div id="briketCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-
-
-
       <!-- Carousel Inner -->
-      <div style="height: 700px;">
-
+      <div style="height: 400px;">
         <!-- VARIAN 1 -->
         <div class="mt-5 pt-5">
           <div class="container my-5">
@@ -323,10 +319,8 @@
                   height="500" loading="lazy">
               </div>
               <div class="col-lg-6">
-                <h1 class="text-capitalize lh-1 my-3">Briket Berkualitas, Harga Terjangkau</h1>
-                <p class="lead">Beli atau jual briket dengan mudah. Cocok untuk rumah tangga, UMKM,
-                  hingga industri.
-                  Hemat biaya dan ramah lingkungan.</p>
+                <h1 class="text-capitalize lh-1 my-3">CV Arkhanza Indo Charcoal </h1>
+                <p class="lead">Indonesia's Premium Charcoal, Globally Ignited.</p>
                 <div class="d-flex gap-2 flex-wrap">
                 </div>
               </div>
@@ -337,7 +331,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="about-us">
 
     <div class="container-fluid text-white bg-image-overlay">
       <div class="container content p-2">
@@ -359,7 +353,7 @@
                 barbecue. Our factory operates under strict quality control to ensure that every batch
                 meets international standards in performance, cleanliness, and consistency.
               </p>
-              <button class="btn btn-outline-light" type="button">Pelajari Lebih Lanjut</button>
+              <!-- <button class="btn btn-outline-light" type="button">Pelajari Lebih Lanjut</button> -->
             </div>
           </div>
 
@@ -423,8 +417,8 @@
 
 
   </section>
-  <section class="container py-5">
-    <h2 class="text-center fw-bold mb-5">our product</h2>
+  <section id="product" class="container py-5">
+    <h2 class="text-center fw-bold mb-5">Our Product</h2>
 
     <!-- Sisha Section -->
     <div class="row align-items-center mb-5">
@@ -439,7 +433,12 @@
           burn time, low ash content, consistent heat, and no unwanted odors or chemicals. Produced under
           strict quality control, our briquettes ensure a clean, smooth smoking experience, making them a
           premium choice for shisha enthusiasts worldwide.</p>
-        <button class="btn btn-warning rounded-pill mt-3">Action</button>
+        <button class="btn btn-warning rounded-pill mt-3"
+          onclick="window.open('https://wa.me/6281234567890?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Shisha%20Charcoal.%20Please%20provide%20more%20details.', '_blank')">
+          Order via WhatsApp
+        </button>
+
+
       </div>
     </div>
 
@@ -458,12 +457,16 @@
     <!-- BBQ Section -->
     <div class="row align-items-center mb-5">
       <div class="col-md-8 order-2 order-md-1">
-        <h3 class="fw-bold">2.Barberque Charcoal</h3>
+        <h3 class="fw-bold">Barberque Charcoal</h3>
         <p>Our BBQ Charcoal is crafted from 100% natural coconut shell, delivering long-lasting heat with a
           burning time of up to 5 hours. Designed for efficient grilling, it reaches temperatures of over
           800°F, ensuring consistent performance. Free from chemical additives, our charcoal briquettes
           are eco-friendly, low-smoke, and clean-burning — perfect for both household and commercial
           barbecue needs</p>
+        <button class="btn btn-warning rounded-pill mt-3"
+          onclick="window.open('https://wa.me/6281234567890?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Barberque%20Charcoal.%20Please%20provide%20more%20details.', '_blank')">
+          Order via WhatsApp
+        </button>
       </div>
       <div class="col-md-4 order-1 order-md-2 mb-3 mb-md-0">
         <img src="bahan/bbq0.jpg" class="w-100 h-10">
@@ -493,9 +496,56 @@
       <h2 class="fw-bold">Shipping & Eksport Detail</h2>
     </div>
     <div class="container">
+      <div class="row col-12">
 
-      <img src="bahan/shipping.jpg" class="w-100 h-10">
+        <img src="bahan/shipping.jpg" class="w-100 h-10">
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-md-4  order-1  order-md-1 mb-3 mb-md-0">
+          <img src="bahan/kontainer_kc.jpg" class="w-100 p-4" alt="Kontainer pengiriman">
+        </div>
+        <div class="col-md-8 order-2 order-md-2">
+          <h3 class="fw-bold">Shipping Detail</h3>
+          <ul class="list-unstyled">
+            <li><strong>Production Capacity:</strong> 250 MT / month</li>
+            <li><strong>Payment Term:</strong> TT 50% Down Payment & 50% After Stuffing</li>
+            <li><strong>Port Loading:</strong> Tanjung Emas, Semarang</li>
+            <li><strong>Minimum Order Quantity:</strong> 18 MT / 20”FCL</li>
+            <li><strong>Shipping Document:</strong> Bill of lading, Commercial Invoice, Packing List,
+              Certificate of
+              Origin (COA), Report of Analysis, Self Heating Test.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-md-4 order-2 order-md-2  mb-3 mb-md-0">
+          <img src="bahan/box1.jpg" class="w-100 p-4" alt="Kemasan produk">
+        </div>
+        <div class="col-md-8  order-1 order-md-1 ">
+          <h3 class="fw-bold">Packaging Detail</h3>
+          <ul class="list-unstyled">
+            <li><strong>Brand Box:</strong> 1 kg, inner plastic + inner box + Master box 10 kg</li>
+            <li><strong>Master Box Only:</strong> 10 kg, inner plastic</li>
+            <li><strong>Plastic bag:</strong> 10 kg</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-md-8 order-2 order-md-2 ">
+          <h3 class="fw-bold">Burning & Drop Test</h3>
+          <p>Our charcoal has long burning time 2 - 2,5 hours without crack.</p>
+
+        </div>
+        <div class="col-md-4 order-1 order-md-1 mb-3 mb-md-0">
+          <img src="bahan/burn.jpg" class="w-100 p-4" alt="Kontainer pengiriman">
+        </div>
+      </div>
+
     </div>
+    </div>
+
   </section>
   <div class="position-relative text-center text-white py-5" style="z-index: 2;">
     <h2 class="fw-bold">Why Arkhanza Indo Charcoal</h2>
@@ -511,190 +561,212 @@
 
 
   <section>
-    <div class="container-fluid">
+    <div id="galery" class="container-fluid">
       <div class="container py-5">
         <div class="row">
           <!-- Gambar besar kiri -->
-          <div class="col-md-7 mb-4 mb-md-0">
-            <img src="https://placehold.co/800x500" class="img-fluid rounded shadow" alt="Gambar besar">
+          <div class="col-md-7 mb-4 mb-md-0 text-center">
+            <img src="bahan/box2a.jpg" class="img-fluid rounded shadow" alt="Gambar besar"
+              style="width: auto; height: 400px;">
           </div>
 
           <!-- Galeri gambar kanan -->
           <div class="col-md-5">
-            <h2 class="mb-4 text-center">Galeri Produk</h2>
+            <h2 class="mb-4 text-center">Galery Product</h2>
 
             <!-- Baris pertama: kiri ke kanan (scroll ke kiri) -->
-            <div class="scroll-row mb-3">
-              <div class="scroll-track">
-                <img src="https://placehold.co/150" class="scroll-img" alt="1">
-                <img src="https://placehold.co/150" class="scroll-img" alt="2">
-                <img src="https://placehold.co/150" class="scroll-img" alt="3">
-                <img src="https://placehold.co/150" class="scroll-img" alt="4">
-                <img src="https://placehold.co/150" class="scroll-img" alt="5">
-                <img src="https://placehold.co/150" class="scroll-img" alt="6">
-                <!-- Duplikasi untuk looping -->
-                <img src="https://placehold.co/150" class="scroll-img" alt="1">
-                <img src="https://placehold.co/150" class="scroll-img" alt="2">
-                <img src="https://placehold.co/150" class="scroll-img" alt="3">
-                <img src="https://placehold.co/150" class="scroll-img" alt="4">
-                <img src="https://placehold.co/150" class="scroll-img" alt="5">
-                <img src="https://placehold.co/150" class="scroll-img" alt="6">
-              </div>
-            </div>
+            <div class="scroll-row mb-3" style="height: 350px;">
 
-            <!-- Baris kedua: kanan ke kiri (scroll ke kanan) -->
-            <div class="scroll-row mb-3">
-              <div class="scroll-track-left">
-                <img src="https://placehold.co/150" class="scroll-img" alt="7">
-                <img src="https://placehold.co/150" class="scroll-img" alt="8">
-                <img src="https://placehold.co/150" class="scroll-img" alt="9">
-                <img src="https://placehold.co/150" class="scroll-img" alt="10">
-                <img src="https://placehold.co/150" class="scroll-img" alt="11">
-                <img src="https://placehold.co/150" class="scroll-img" alt="12">
-                <!-- Duplikasi untuk looping -->
-                <img src="https://placehold.co/150" class="scroll-img" alt="7">
-                <img src="https://placehold.co/150" class="scroll-img" alt="8">
-                <img src="https://placehold.co/150" class="scroll-img" alt="9">
-                <img src="https://placehold.co/150" class="scroll-img" alt="10">
-                <img src="https://placehold.co/150" class="scroll-img" alt="11">
-                <img src="https://placehold.co/150" class="scroll-img" alt="12">
+
+              <div class="scroll-track">
+                <img src="produk/f1.jpg" class="scroll-img" alt="1">
+                <img src="produk/f2.jpg" class="scroll-img" alt="2">
+                <img src="produk/f3.jpg" class="scroll-img" alt="3">
+                <img src="produk/f4.jpg" class="scroll-img" alt="4">
+                <img src="produk/f5.jpg" class="scroll-img" alt="5">
+                <img src="produk/f6.jpg" class="scroll-img" alt="6">
+                <img src="produk/f7.jpg" class="scroll-img" alt="7">
+                <img src="produk/f8.jpg" class="scroll-img" alt="8">
+                <img src="produk/f9.jpg" class="scroll-img" alt="9">
+                <img src="produk/f10.jpg" class="scroll-img" alt="10">
+                <img src="produk/f1.jpg" class="scroll-img" alt="1">
+                <img src="produk/f2.jpg" class="scroll-img" alt="2">
+                <img src="produk/f3.jpg" class="scroll-img" alt="3">
+                <img src="produk/f4.jpg" class="scroll-img" alt="4">
+                <img src="produk/f5.jpg" class="scroll-img" alt="5">
+                <img src="produk/f6.jpg" class="scroll-img" alt="6">
+                <img src="produk/f7.jpg" class="scroll-img" alt="7">
+                <img src="produk/f8.jpg" class="scroll-img" alt="8">
+                <img src="produk/f9.jpg" class="scroll-img" alt="9">
+                <img src="produk/f10.jpg" class="scroll-img" alt="10">
+              </div>
+
+              <!-- Baris kedua: kanan ke kiri (scroll ke kanan) -->
+              <div class="scroll-row mb-3 mt-2">
+                <div class="scroll-track-left" style="height: auto;">
+                  <img src="produk/g1.jpg" class="scroll-img" alt="g1">
+                  <img src="produk/g2.jpg" class="scroll-img" alt="g2">
+                  <img src="produk/g3.jpg" class="scroll-img" alt="g3">
+                  <img src="produk/g4.jpg" class="scroll-img" alt="g4">
+                  <img src="produk/g5.jpg" class="scroll-img" alt="g5">
+                  <img src="produk/g6.jpg" class="scroll-img" alt="g6">
+                  <img src="produk/h1.jpg" class="scroll-img" alt="h1">
+                  <img src="produk/h2.jpg" class="scroll-img" alt="h2">
+                  <img src="produk/h3.jpg" class="scroll-img" alt="h3">
+                  <img src="produk/h4.jpg" class="scroll-img" alt="h4">
+                  <img src="produk/h5.jpg" class="scroll-img" alt="h5">
+                  <img src="produk/h6.jpg" class="scroll-img" alt="h6">
+                  <img src="produk/h7.jpg" class="scroll-img" alt="h7">
+                  <img src="produk/g1.jpg" class="scroll-img" alt="g1">
+                  <img src="produk/g2.jpg" class="scroll-img" alt="g2">
+                  <img src="produk/g3.jpg" class="scroll-img" alt="g3">
+                  <img src="produk/g4.jpg" class="scroll-img" alt="g4">
+                  <img src="produk/g5.jpg" class="scroll-img" alt="g5">
+                  <img src="produk/g6.jpg" class="scroll-img" alt="g6">
+                  <img src="produk/h1.jpg" class="scroll-img" alt="h1">
+                  <img src="produk/h2.jpg" class="scroll-img" alt="h2">
+                  <img src="produk/h3.jpg" class="scroll-img" alt="h3">
+                  <img src="produk/h4.jpg" class="scroll-img" alt="h4">
+                  <img src="produk/h5.jpg" class="scroll-img" alt="h5">
+                  <img src="produk/h6.jpg" class="scroll-img" alt="h6">
+                  <img src="produk/h7.jpg" class="scroll-img" alt="h7">
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
 
   <!--About us start -->
-  <section id="about-us">
-    <div class="container">
-      <div class="row py-lg-5">
+  <!-- <section id="about-us">
+        <div class="container">
+            <div class="row py-lg-5">
 
-        <h2 class="text-capitalize text-center m-0 py-lg-5">Why to choose us</h2>
+                <h2 class="text-capitalize text-center m-0 py-lg-5">Why to choose us</h2>
 
-        <div class="text-center col-lg-4">
-          <img src="images/search.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
-            width="140" height="140" loading="lazy">
-          <h4 class="fw-normal mt-5 ">Easy to find</h4>
-          <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam
-            pretium
-            amet
-            facilisis.</p>
+                <div class="text-center col-lg-4">
+                    <img src="images/search.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
+                        width="140" height="140" loading="lazy">
+                    <h4 class="fw-normal mt-5 ">Easy to find</h4>
+                    <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam
+                        pretium
+                        amet
+                        facilisis.</p>
+                </div>
+
+                <div class="text-center col-lg-4">
+                    <img src="images/price.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
+                        width="140" height="140" loading="lazy">
+                    <h4 class="fw-normal mt-5">Affordable Prices</h4>
+                    <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam
+                        pretium
+                        amet
+                        facilisis.</p>
+                </div>
+
+                <div class="text-center col-lg-4">
+                    <img src="images/time.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
+                        width="140" height="140" loading="lazy">
+                    <h4 class="fw-normal mt-5 ">Quickly Process</h4>
+                    <p>Ac, gravida in diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua
+                        dui
+                        pellentesque. </p>
+                </div>
+            </div>
         </div>
-
-        <div class="text-center col-lg-4">
-          <img src="images/price.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
-            width="140" height="140" loading="lazy">
-          <h4 class="fw-normal mt-5">Affordable Prices</h4>
-          <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam
-            pretium
-            amet
-            facilisis.</p>
-        </div>
-
-        <div class="text-center col-lg-4">
-          <img src="images/time.png" class="bd-placeholder-img rounded-circle" alt="Bootstrap Themes"
-            width="140" height="140" loading="lazy">
-          <h4 class="fw-normal mt-5 ">Quickly Process</h4>
-          <p>Ac, gravida in diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua
-            dui
-            pellentesque. </p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section> -->
 
   <!-- Testimonial start  -->
-  <section id="testimonial">
-    <div class="container my-5">
+  <!-- <section id="testimonial">
+        <div class="container my-5">
 
 
 
-      <div class="swiper testimonial-swiper">
-        <div class="swiper-wrapper">
+            <div class="swiper testimonial-swiper">
+                <div class="swiper-wrapper">
 
-          <div class="swiper-slide">
-            <div class="row my-5 py-lg-5">
-              <div class="col-md-8 mx-auto">
-                <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
-                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
-                  porta
-                  quam a
-                  fringilla
-                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
-                </p>
+                    <div class="swiper-slide">
+                        <div class="row my-5 py-lg-5">
+                            <div class="col-md-8 mx-auto">
+                                <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
+                                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
+                                    porta
+                                    quam a
+                                    fringilla
+                                    eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
+                                </p>
 
-                <div class="row">
-                  <div class="col-md-8">
-                    <p class="pt-5 mb-1">Elena Pravo</p>
-                    <p class="">Ceo, Upstate</p>
-                  </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="pt-5 mb-1">Elena Pravo</p>
+                                        <p class="">Ceo, Upstate</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="row my-5 py-lg-5">
+                            <div class="col-md-8 mx-auto">
+                                <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
+                                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
+                                    porta
+                                    quam a
+                                    fringilla
+                                    eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="pt-5 mb-1">Elena Pravo</p>
+                                        <p class="">Ceo, Upstate</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="row my-5 py-lg-5">
+                            <div class="col-md-8 mx-auto">
+                                <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
+                                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
+                                    porta
+                                    quam a
+                                    fringilla
+                                    eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="pt-5 mb-1">Elena Pravo</p>
+                                        <p class="">Ceo, Upstate</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="swiper-slide">
-            <div class="row my-5 py-lg-5">
-              <div class="col-md-8 mx-auto">
-                <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
-                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
-                  porta
-                  quam a
-                  fringilla
-                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
-                </p>
-
-                <div class="row">
-                  <div class="col-md-8">
-                    <p class="pt-5 mb-1">Elena Pravo</p>
-                    <p class="">Ceo, Upstate</p>
-                  </div>
+                <div class=" testimonial-swiper-button col-md-3 position-absolute">
+                    <div class="swiper-button-prev testimonial-arrow"></div>
+                    <div class="arrow-divider"> | </div>
+                    <div class="swiper-button-next testimonial-arrow"></div>
                 </div>
-              </div>
+
             </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="row my-5 py-lg-5">
-              <div class="col-md-8 mx-auto">
-                <img src="images/quote.png" class="rounded mx-auto d-inline" alt="...">
-                <p class="testimonial-p mt-4">Massa semper non rutrum orci facilisi sit. Lectus
-                  porta
-                  quam a
-                  fringilla
-                  eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
-                </p>
-
-                <div class="row">
-                  <div class="col-md-8">
-                    <p class="pt-5 mb-1">Elena Pravo</p>
-                    <p class="">Ceo, Upstate</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
         </div>
-
-        <div class=" testimonial-swiper-button col-md-3 position-absolute">
-          <div class="swiper-button-prev testimonial-arrow"></div>
-          <div class="arrow-divider"> | </div>
-          <div class="swiper-button-next testimonial-arrow"></div>
-        </div>
-
-      </div>
-    </div>
-  </section>
+    </section> -->
 
   <!-- Help start  -->
-  <section id="help" class="py-5"
+  <!-- <section id="help" class="py-5"
     style="background: linear-gradient(270deg, #1A242F 0.01%, rgba(26, 36, 47, 0.00) 100%);">
     <div class="container-lg my-5">
 
@@ -727,10 +799,10 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Lets start  -->
-  <section id="start">
+  <!-- <section id="start">
     <div class="container my-5 py-5">
       <div class="row featurette py-lg-5 ">
         <div class="col-md-5 order-md-1 d-flex">
@@ -750,6 +822,35 @@
           </div>
         </div>
 
+      </div>
+    </div>
+  </section> -->
+  <section id="contact" class="py-5 bg-dark">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-8">
+          <h2 class="fw-bold mb-4">Contact Us</h2>
+          <p class="lead">We are ready to assist you. Please contact us via email or WhatsApp for more
+            information, orders, or any inquiries you may have.</p>
+
+          <div class="d-flex flex-column flex-md-row justify-content-center gap-3 mt-4">
+            <a href="mailto:contact@arkhanzaindocharcoal.com" class="btn btn-primary btn-lg shadow-sm">
+              <i class="bi bi-envelope-fill me-2"></i> Send an Email
+            </a>
+
+            <a href="https://wa.me/6281234567890" class="btn btn-success btn-lg shadow-sm">
+              <i class="bi bi-whatsapp me-2"></i> Send a WhatsApp Message
+            </a>
+          </div>
+
+          <p class="mt-4 text-muted">or reach us directly at:</p>
+          <p class="mb-0">
+            <strong>Email:</strong> contact@arkhanzaindocharcoal.com
+          </p>
+          <p>
+            <strong>WhatsApp:</strong> +62 812-3456-7890
+          </p>
+        </div>
       </div>
     </div>
   </section>
