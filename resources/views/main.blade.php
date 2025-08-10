@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> www.arkhanzaindocharcoal.com</title>
+  <title>arkhanzaindocharcoal.com</title>
+  <link rel="icon" href="bahan/LogoArkhanza.png" type="image/x-icon">
 
   <link rel="stylesheet" type="text/css" href="css/vendor.css">
 
@@ -434,7 +435,7 @@
           strict quality control, our briquettes ensure a clean, smooth smoking experience, making them a
           premium choice for shisha enthusiasts worldwide.</p>
         <button class="btn btn-warning rounded-pill mt-3"
-          onclick="window.open('https://wa.me/6281234567890?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Shisha%20Charcoal.%20Please%20provide%20more%20details.', '_blank')">
+          onclick="window.open('https://wa.me/6282138095839?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Shisha%20Charcoal.%20Please%20provide%20more%20details.', '_blank')">
           Order via WhatsApp
         </button>
 
@@ -457,14 +458,14 @@
     <!-- BBQ Section -->
     <div class="row align-items-center mb-5">
       <div class="col-md-8 order-2 order-md-1">
-        <h3 class="fw-bold">Barberque Charcoal</h3>
+        <h3 class="fw-bold">Barbeque Charcoal</h3>
         <p>Our BBQ Charcoal is crafted from 100% natural coconut shell, delivering long-lasting heat with a
           burning time of up to 5 hours. Designed for efficient grilling, it reaches temperatures of over
           800°F, ensuring consistent performance. Free from chemical additives, our charcoal briquettes
           are eco-friendly, low-smoke, and clean-burning — perfect for both household and commercial
           barbecue needs</p>
         <button class="btn btn-warning rounded-pill mt-3"
-          onclick="window.open('https://wa.me/6281234567890?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Barberque%20Charcoal.%20Please%20provide%20more%20details.', '_blank')">
+          onclick="window.open('https://wa.me/6282138095839?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Barbeque%20Charcoal.%20Please%20provide%20more%20details.', '_blank')">
           Order via WhatsApp
         </button>
       </div>
@@ -481,7 +482,7 @@
         <!-- <div class="bg-success" style="height: 200px;"></div> -->
       </div>
       <div class="col-md-6">
-        <img src="bahan/bbq1.png" class="w-100 h-10">
+        <img src="bahan/bbq2.png" class="w-100 h-10">
         <!-- <div class="bg-secondary" style="height: 200px;"></div> -->
       </div>
     </div>
@@ -838,7 +839,7 @@
               <i class="bi bi-envelope-fill me-2"></i> Send an Email
             </a>
 
-            <a href="https://wa.me/6281234567890" class="btn btn-success btn-lg shadow-sm">
+            <a href="https://wa.me/6282138095839" class="btn btn-success btn-lg shadow-sm">
               <i class="bi bi-whatsapp me-2"></i> Send a WhatsApp Message
             </a>
           </div>
@@ -848,7 +849,7 @@
             <strong>Email:</strong> contact@arkhanzaindocharcoal.com
           </p>
           <p>
-            <strong>WhatsApp:</strong> +62 812-3456-7890
+            <strong>WhatsApp:</strong> +62 821-3809-5839 (Wafa) | +62 812-2577-2230 (Zaim)
           </p>
         </div>
       </div>
@@ -864,7 +865,9 @@
           <img src="bahan/logo_kecil.jpg" style="max-width: 300px; margin-top: -100px;">
           <p>Your Trusted Partner in Premium Charcoal Export</p>
           <i class="bi-facebook pe-4"></i>
-          <i class="bi-instagram pe-4"></i>
+          <a href="https://www.instagram.com/arkhanzaindocharcoal/" target="_blank">
+            <i class="bi-instagram pe-4"></i>
+          </a>
           <i class="bi-twitter pe-4"></i>
           <i class="bi-youtube pe-4"></i>
         </div>
@@ -991,7 +994,7 @@
         alert("Pesan tidak boleh kosong.");
         return;
       }
-      const phone = '6281234567890'; // Ganti dengan nomor WA tujuan
+      const phone = '6282138095839'; // Ganti dengan nomor WA tujuan
       const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
       window.open(url, '_blank');
     }
@@ -1051,7 +1054,7 @@
             <li><strong>Kalori:</strong> 7200 kcal/kg</li>
             <li><strong>Jenis:</strong> Briket Kelapa</li>
           </ul>
-          <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20memesan%20Briket%20Tempurung%20Kelapa"
+          <a href="https://wa.me/6282138095839?text=Halo,%20saya%20ingin%20memesan%20Briket%20Tempurung%20Kelapa"
             target="_blank" class="btn btn-success mt-2">Pesan via WhatsApp</a>
         </div>
       </div>
